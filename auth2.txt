@@ -1,0 +1,15 @@
+{
+  "type": "service_account",
+  "project_id": "armbot1",
+  "private_key_id": "81b9587a7cca3eba6fcd5ffa56bf7e544859ebfe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCr8knDNwS9n3VJ\nbKIdRBJbXKJ6PdYw3lJMXERaFNo95KUjhXFJz5O27iZrI8Y81QD2R2opTTjD7ood\noxHij15gGgFkobyc/v5bGsK9RT+++WERWdRRiFkoxoz1DevPILseKs/3awENZ0PM\nFSY3WiTsY0wulshkVQxo60BiS/nW1rLOfmyio9UhpqkPpSDEePXyKN9fu3+EQHiV\n2l0k/Ng5lRt0O6piNsNlC/QPao7wJ4d/YKeSqqiCfBcJx5aqY38SKqCM0Y2mFvCR\niksLQB4S96kKeprjS75Vd8V+7q7lp8NkFEI++y36YH3vWQyB/xP6S3Ifu6zDJLAd\nwivTtu/XAgMBAAECggEARYyUmnIsKDkR+1eGATlyBWNkUvalJxIeDsX5Xch2eDd+\nNm544uaj9IfCoW6QdjWgFH3RapBSKCpZ0mAN0Wq1PUD3lEk5XfVkU9xwrZcPkEMV\nqKuBjlMM4UniZRKy8Y5nMW4WvZiaDd5ZlXhug1AihD0r6OJTfwXJpbyWR8w8a9G0\nkfKAzv3uLxwuJzdSOXwvQoetMgbY5pHbwn9YkIV7iBJ7Kxxz7uehip23sSyyMAZR\nAXyPwvVzyhNvFB1qXQt7LYPFfjrKTb7revZxt/IOfYjdcTXVOOtys+Fmf+PK8dLe\nf/BO2yj1E2/7QR0dpC0p6n4/nsiT5w6/lkV7aqn7lQKBgQDlGyKjFy7xJvIpVhRt\nb9FCIxJzC+u7rH6o5TEWMtNmtxCHSSz8UQFtu9IfWlk8KZagd2YunCTltnG/4ugq\nx909F9Y0Cl3++MVXnWD+3pDIetBRSRQ49FLOXJgNIgHdm4E3tmUINSjWcfSiEckI\n87MLFDYAJy2KIKafyUc0zB80pQKBgQDAIXNpTiAwjmtXrVgdP69oEdRk51/Y9ZEM\napxzoGraBTgpyZwBEDGWjjn6Q/evQacg3tor3SfU8pcQmGTlGADNN2/MHxg1c/xz\nrsAW4wHBSWA1vKpLDsqf7fDc7W8MLH1yx22FQ5keyakYA9I1DmXbgNIeTgUtxK2A\n962TssOdywKBgBdmrCUIay0Kk1WRi0iaUT92IZ5Kq2th9RX/QwJHcrxdGn0XBldH\nVuQEeTPmoJK6lL4TNAaywDoOZpP480nbXEevNZvfKzat5kpKsuuVhChWEw0ab8xZ\neFPHtWgx/wrJpWsxYCR0eZVd0mTzeBtH+RO6nsFpPweKyjor7u//oXhZAoGBAKA3\nhOGMt8UmDpd3wyHo6KH1NFPMqh3nccST5tF5NYGHlrUqHYC5e1CcW/a51QL90ZvU\nmsS3UK8AeT7qhkCQyqJXF1B1oZ95kEz7rc2oEd+YC7XkFXIv7IJ/Tjs9eDwDob0k\nVs0peLe23N5c2V9LGV95Rj7lOuZWu4TvhXzENuIPAoGALABCLhcjKXDmNSsWwGoM\ndUxQurYSqwEzYqCshQa3ZPSD0baBzbuf4vtMMM6+80cuXVWK7Cn8TGgq66+9p4R2\nawRRKNu9sWyfwMkg+vxITh1lHLDWdVtrWvg4BEhH4GzWrpuKNCdq3b4qJNBqnQVn\nCFRN9J2OlAPZ422ivW6OZvI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "arm-client-service@armbot1.iam.gserviceaccount.com",
+  "client_id": "100801675822672055444",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/arm-client-service%40armbot1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com",
+  "telebot_api": "6921385911:AAFPbyNV0IAasrlqaKdbR_XymSdBF1-xVT4",
+  "spreadsheetId": "1QIYyxTBxTiwqgpwduzOYZ8UNtpI6F29yXe0RQPAFq7o"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "service_account",
+  "project_id": "arm-session",
+  "private_key_id": "1eed88bb91df2249c7006d0598629d6156fbc070",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1I6CPkE2aAuVV\nq6sDe8cU86UKjr0nVGAhxU45iPQlxg6dMTFWibMIdZ9TDdjR1metI6oOpgZHZQfW\nyYfcldJ38kthHsVKrvXfPSDbUG2oHZ4lFJGPwYrFXuZ52932Kv6eXRmZwcH5J+sO\nMfkDA7zj1klo30de6fEWMAqtJEjB6NHchyhfPWx0515HxqWRxRjOxWAGudSWnvhR\nm0tQQ/TeRFkGJcVdkrxh7LuGH2qKz2Mojkc8EBluBoF7C24KQabwRnInn71r9L2N\nk5gIwvi6JbOJtASxiFOv+e28ypcrPcwjzyaqs9Hgg/JXyEAt346tsgBLti4+eErI\nosLLOA1xAgMBAAECggEAAjOTJXuG/eqwF9j0xJ+R/VayuEygzuQPIQnxV/CqqvTb\nw5xP8bHNu7oWPB+sdWxqKSgITpJE/EQlkr4zSQKHIs8OjHkfw7cZpONszU2Ob58g\nh2nXFQywn5J2MZ/y9CV0n78Y6w34Sgtqp2sDED7Q4mH91Wj1SJmGRRNDZfRNcBHb\nkwci3z5eBXckJFoXGhnIouFqDdrE6XBda8PyMTRvDHR+gsXWCqh0xAp9gJvVtiMb\nn8OvCQeYPo3PfX+YdIZta78ZLjgoIDspvFwdh5YF83Chif8GOun8B7gAdeB5X/hY\nHq5F3RBJnjr4bnQ2HbDJeiFU/+wdTk7PhZw6TNgXawKBgQDZkUNZynZB3skLdQyA\nXmuoaI8bf6mbj5p1ZypRXNhCIZpVspfhMyzNElw4zxsv7Dbjk1zbLO2/ernunQJs\n53qJVos1hxIpSn/ZzuAiPEFjHcxHgWGa4bgm2/CK1JvpwU3rbJ6EUxYOM6y+37wL\nopt7busUqWcIFEa+QL+b+XAPywKBgQDVIwV8gCGOmPV4bg1ngnO32/24oSdwZzCW\nzRNM0z1VkJ4hxi9L+1AainXR6OMFb5FX7h+mARx6XVhzl3V+cgrJ+qEQ0FWLAbSJ\n55FEE64/fFfSXAchrQhHR2lEu9lsgfjZJ45PT7F48UWNU4WsnuciieMAcZRWuNxF\nND3RJEG4MwKBgGTCGG3qDLBey77Jm1uL3tHkcnoqulK3w7GhcICzvdeKll4f0qTR\nvWrPmPQaPh4IiDcG1RcQDJ8D6D3wauIipaYa9Wd5wVhsDx/A5h4Ux7duYl+vNJO0\n+0LL0u+InRg5lKt150ei7vDuz46qMP02dklIyggMmBGuykBr3hEPCO3XAoGBAIRK\nlo8uYKXH3yT++ibzW6wVSiidLoOgKRKQ+5fFzd4cQ2qnPpgkxxWSN4swyCiJlWdE\nkDRToD97TPmCWxU+599yRyLOjSoYxtyJ9SqSJKeXIFObd3m5ktfbRUW6azvkeHch\nDD3CM1/kMc2EuAXrI3/WoiWWWgJx/5ac1HnJzVjtAoGAUJJ1P5FXALLjcndbBYXP\n3Oqfd3eNsIX+12mtk1geYkF/gMOC/wOARopOnv6ZU4CZN8s3waaBMWefQEzfBQOu\nbNPZ+EHHGTvbD/7EOWrn8DB9PWL47s1ov6yuHsdxd1qehSddUT6meMCvN+kXGqpA\nAzWmUbDlVeWpdnERdxP6W2M=\n-----END PRIVATE KEY-----\n",
+  "client_email": "client-sessions@arm-session.iam.gserviceaccount.com",
+  "client_id": "116907546452028119702",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/client-sessions%40arm-session.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com",
+  "telebot_api": "6921385911:AAFPbyNV0IAasrlqaKdbR_XymSdBF1-xVT4",
+  "spreadsheetId": "1ufeRhZB-8aUAxd2KE-7OGVrJU9zbq22UEA4y7mGZul4",
+  "spreadsheetId_test": "1QIYyxTBxTiwqgpwduzOYZ8UNtpI6F29yXe0RQPAFq7o"
+}
+
