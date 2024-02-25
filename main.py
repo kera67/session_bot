@@ -101,7 +101,7 @@ def check_name(call):
 
 
 def get_name(message):
-    session = get_session(message.chat.id).brigadier
+    session = get_session(message.chat.id)
     session.brigadier = message.text
     bot.send_message(message.chat.id, f"Cмену открывает {message.text}.")
     bot.send_message(message.chat.id, "Какая смена❓", reply_markup=markup_one_two)
@@ -179,7 +179,6 @@ def get_brigade_comment(message):
     bot.send_message(message.chat.id, f"Комментарий по работе бригады?")
     bot.register_next_step_handler(message, append_session)
 
-
 def append_session(message):
     user_id = message.chat.id
     session = get_session(user_id)
@@ -207,10 +206,12 @@ def append_session(message):
 
 
 def main():
-    bot.polling(none_stop=True)
     while True:
-        schedule.run_pending()
-        time.sleep(1)
+        try:
+            bot.polling(non_stop=True, interval=0)
+        except Exception:
+            time.sleep(0.1)
+            continue
 
 
 if __name__ == '__main__':

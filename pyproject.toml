@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "session"
+name = "sessions"
 version = "0.1.0"
 description = ""
 authors = ["Kera Korotkov <kera_korotkov@mail.ru>"]

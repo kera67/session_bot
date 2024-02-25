@@ -1,31 +1,18 @@
-FROM python:3.12.1-bullseye as builder
-
-COPY . .
-
-RUN pip install -U --no-cache-dir pip wheel setuptools==59.8.0 poetry
-
-RUN poetry build -f wheel
-RUN poetry export -f requirements.txt -o requirements.txt --without-hashes
-
-RUN pip wheel -w dist -r requirements.txt
-
-
-FROM python:3.12.1-bullseye as runtime
-
-WORKDIR /usr/src/app
+FROM python:3.12.1-bullseye
 
 ENV PYTHONOPTIMIZE=1
 ENV TZ=Europe/Moscow
 
-COPY --from=builder dist dist
-COPY --from=builder main.py ./
+WORKDIR /usr/src/app
 
-RUN pip install -U pip==20.2.4
+COPY . .
 
-RUN pip install --no-cache-dir --no-index dist/*.whl && \
-    rm -rf dist
+RUN python -m pip install --no-cache-dir poetry \
+    && poetry config virtualenvs.create false \
+    && poetry install --no-interaction --no-ansi \
+    && rm -rf $(poetry config cache-dir)/{cache,artifacts}
 
 RUN useradd -r -UM app
 USER app
 
-CMD ["python", "main.py"]
+CMD ["python3", "main.py"]
